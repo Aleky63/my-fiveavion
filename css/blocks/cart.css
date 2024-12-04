@@ -1,0 +1,116 @@
+.cart {
+  padding: 84px 0;
+  background-color: var(--light-grey);
+}
+
+.cart__content {
+  background-color: var(--white);
+  padding: 75px 60px;
+}
+.cart__table {
+  margin-bottom: 20px;
+  padding-bottom: 28px;
+  border-bottom: 1px solid var(--light-grey);
+}
+.cart__row {
+  margin-bottom: 32px;
+}
+.cart__row.cart__row--heading {
+  margin-bottom: 28px;
+  border-bottom: 1px solid var(--light-grey);
+  padding-bottom: 12px;
+  font-family: var(--second-family);
+  font-weight: 400;
+  line-height: 1.4;
+  font-size: 14px;
+  color: var(--dark-primary);
+}
+.cart__info {
+  padding-left: 17px;
+  padding-top: 12px;
+  max-width: 240px;
+}
+.cart__grid {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  column-gap: 7px;
+}
+
+.cart__col {
+  grid-column: 6 span;
+}
+.cart__col--img {
+  grid-column: 1 span;
+}
+.cart__col--info {
+  grid-column: 5 span;
+}
+.cart__col--quantity {
+  grid-column: 2 span;
+  padding-left: 75px;
+}
+.cart__col--total {
+  grid-column: 2 span;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.cart__title {
+  margin: 0;
+  font-family: var(--second-family);
+  font-weight: 400;
+  line-height: 1.4;
+  font-size: 20px;
+  color: var(--dark-primary);
+}
+.cart__descr {
+  font-weight: 400;
+  line-height: 1.5;
+  font-size: 14px;
+  color: var(--dark-primary);
+}
+.cart__price {
+  font-weight: 400;
+  line-height: 1.5;
+  font-size: 16px;
+  color: var(--dark-primary);
+}
+
+.cart__total {
+  padding-top: 12px;
+  font-weight: 400;
+  line-height: 1.5;
+  font-size: 18px;
+  color: var(--dark-primary);
+}
+
+.cart__bottom-info {
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.cart__text {
+  font-weight: 400;
+  line-height: 1.5;
+  font-size: 14px;
+  text-align: right;
+  color: var(--dark-primary);
+}
+.cart__subtotal {
+  font-family: var(--second-family);
+  font-weight: 400;
+  line-height: 1.4;
+  font-size: 20px;
+  text-align: right;
+  color: var(--primary);
+}
+.cart__subtotal span {
+  font-size: 24px;
+  color: var(--dark-primary);
+}
+
+.cart__btn-wrap {
+  display: flex;
+  justify-content: flex-end;
+}
